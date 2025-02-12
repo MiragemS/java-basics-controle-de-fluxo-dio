@@ -1,0 +1,22 @@
+Case 1
+- Let's imagine that in a selection process there is a base salary value of 2000 reais and the
+salary desired by the candidate. Let's create a flow control where:
+  1 - if the base value is greater than the desired salary value, print: "call candidate"
+  2 - Otherwise, if the base salary value is equal to the desired salary value, print: Call the
+  candidate with a counter proposal
+  3 - Otherwise, print: awaiting results from other candidates
+
+Case 2
+Our system was asked to ensure that, given the numerous applications, only 5 candidates are
+selected for interview where the desired salary is less than or equal to the base salary.
+
+Case 3
+Now it's time to print the list of selected candidates to make it available for HR to contact
+
+Case 4
+HR must make a call with a maximum of 03 attempts to the selected candidate and if the candidate
+ answers, the following must be printed:
+- "We were able to contact [candidate] after [attempted] attempts
+
+-otherwise, print: "We were unable to contact the [candidate]"
+
