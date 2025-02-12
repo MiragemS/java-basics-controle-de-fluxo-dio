@@ -1,18 +1,28 @@
-# java-basics-controle-de-fluxo-di
-www.dio.me
-Exercício com "template" pronto, sendo necessário apenas completar os espaços vagos
+# Desafio Processo seletivo
+Atividade realizada propositalmente em inglês para treinar tanto minha programação quanto o inglês:
 
-## Controle de Fluxo - Desafio
+Case 1
+Let's imagine that in a selection process there is a base salary value of 2000 reais and the
+salary desired by the candidate. Let's create a flow control where:
+  1 - if the base value is greater than the desired salary value, print: "call candidate"
+  2 - Otherwise, if the base salary value is equal to the desired salary value, print: Call the
+  candidate with a counter proposal
+  3 - Otherwise, print: awaiting results from other candidates
 
-Vamos exercitar todo o conteúdo apresentado no módulo de Controle de Fluxo codificando o seguinte cenário.
+Case 2
+Our system was asked to ensure that, given the numerous applications, only 5 candidates are
+selected for interview where the desired salary is less than or equal to the base salary.
 
-O sistema deverá receber dois parâmetros via terminal que representarão dois números inteiros, com estes dois números você deverá obter a quantidade de interações (for) e realizar a impressão no console (System.out.print) dos números incrementados, exemplo:
+Case 3
+Now it's time to print the list of selected candidates to make it available for HR to contact
 
-* Se você passar os números 12 e 30, logo teremos uma interação (for) com 18 ocorrências para imprimir os números, exemplo: `"Imprimindo o número 1"`, `"Imprimindo o número 2"` e assim por diante.
-* Se o primeiro parâmetro for MAIOR que o segundo parâmetro, você deverá lançar a exceção customizada chamada de `ParametrosInvalidosException` com a segunda mensagem: "O segundo parâmetro deve ser maior que o primeiro"   
+Case 4
+HR must make a call with a maximum of 03 attempts to the selected candidate and if the candidate
+ answers, the following must be printed:
+"We were able to contact [candidate] after [attempted] attempts
 
+-otherwise, print: "We were unable to contact the [candidate]"
 
-1. Crie o projeto `DesafioControleFluxo`
-2. Dentro do projeto, crie a classe `Contador.java` para realizar toda a codificação do nosso programa.
-3. Dentro do projeto, crie a classe `ParametrosInvalidosException` que representará a exceção de negócio no sistema. 
+# Desafio de controle de fluxo (contador)
 
+Desafio simples com template pronto, com o único objetivo de completar as lacunas do código
