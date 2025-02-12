@@ -1,9 +1,6 @@
-# java-basics-controle-de-fluxo-dio
-
-# DIO - Trilha Java Básico
+# java-basics-controle-de-fluxo-di
 www.dio.me
-
-## Exercício com "template" pronto, sendo necessário apenas completar os espaços vagos
+Exercício com "template" pronto, sendo necessário apenas completar os espaços vagos
 
 ## Controle de Fluxo - Desafio
 
